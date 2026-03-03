@@ -1,0 +1,15 @@
+34
+class Employee {
+    int id = 101;
+}
+
+class Manager extends Employee {
+    void show() {
+        System.out.println("Manager ID: " + id);
+    }
+
+    public static void main(String[] args) {
+        Manager m = new Manager();
+        m.show();
+    }
+}
