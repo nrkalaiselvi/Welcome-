@@ -1,0 +1,25 @@
+35
+class Person {
+    void showPerson() {
+        System.out.println("I am a person");
+    }
+}
+
+class Student extends Person {
+    void showStudent() {
+        System.out.println("I am a student");
+    }
+}
+
+class CollegeStudent extends Student {
+    void showCollege() {
+        System.out.println("I am a college student");
+    }
+
+    public static void main(String[] args) {
+        CollegeStudent c = new CollegeStudent();
+        c.showPerson();
+        c.showStudent();
+        c.showCollege();
+    }
+}
