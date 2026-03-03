@@ -1,0 +1,17 @@
+31)
+class Interest {
+    double p, r, t;
+
+    void calculate() {
+        double si = (p * r * t) / 100;
+        System.out.println("Simple Interest = " + si);
+    }
+
+    public static void main(String[] args) {
+        Interest obj = new Interest();
+        obj.p = 1000;
+        obj.r = 5;
+        obj.t = 2;
+        obj.calculate();
+    }
+}
